@@ -5,3 +5,4 @@ https://raw.githack.com/Farah-Qayoom/Web-Design-And-Development-Lab/main/web%20l
 https://raw.githack.com/Farah-Qayoom/Web-Design-And-Development-Lab/main/web%20task%205.html
 https://raw.githack.com/Farah-Qayoom/Web-Design-And-Development-Lab/main/animation%20task%206.html
 https://raw.githack.com/Farah-Qayoom/Web-Design-And-Development-Lab/main/transition%20task%206.html
+https://raw.githack.com/Farah-Qayoom/Web-Design-And-Development-Lab/main/WEB_Lab_Task_07.zip
