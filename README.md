@@ -8,4 +8,4 @@ https://raw.githack.com/Farah-Qayoom/Web-Design-And-Development-Lab/main/transit
 https://raw.githack.com/Farah-Qayoom/Web-Design-And-Development-Lab/tree/main/lab%2007
 https://raw.githack.com/Farah-Qayoom/Web-Design-And-Development-Lab/main/web%20Lab%20task%208.html
 https://raw.githack.com/Farah-Qayoom/Web-Design-And-Development-Lab/main/WEB%20Lab%20task%209.html
-https://raw.githack.com/Farah-Qayoom/Web-Design-And-Development-Lab/main/WEB_Lab_Task_10.zip
+https://raw.githack.com/Farah-Qayoom/Web-Design-And-Development-Lab/tree/main/f
