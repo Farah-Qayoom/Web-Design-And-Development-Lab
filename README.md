@@ -1,6 +1,6 @@
 https://raw.githack.com/Farah-Qayoom/Web-Design-And-Development-Lab/main/web%20lab%201.html
 https://raw.githack.com/Farah-Qayoom/Web-Design-And-Development-Lab/main/cv.html
-
+https://raw.githack.com/Farah-Qayoom/Web-Design-And-Development-Lab/main/Lab%20Task%202.html
 https://raw.githack.com/Farah-Qayoom/Web-Design-And-Development-Lab/main/web%20lab%20task%204.html
 https://raw.githack.com/Farah-Qayoom/Web-Design-And-Development-Lab/main/web%20task%205.html
 https://raw.githack.com/Farah-Qayoom/Web-Design-And-Development-Lab/main/animation%20task%206.html
