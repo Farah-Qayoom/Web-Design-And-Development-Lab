@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shopping Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .navbar { margin-bottom: 30px; }
+        .product-card { border: 1px solid #ddd; border-radius: 5px; padding: 15px; margin: 15px; transition: 0.3s; }
+        .product-card:hover { box-shadow: 0px 4px 15px rgba(0,0,0,0.2); transform: translateY(-5px); }
+        .pro-price { font-size: 18px; font-weight: bold; margin-top: 10px; }
+        .pro-price del { color: red; margin-right: 10px; }
+        .pro-price ins { color: green; text-decoration: none; }
+        .footer { background: #222; color: #fff; text-align: center; padding: 20px; margin-top: 50px; }
+    </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">MyShop</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Product Section -->
+<div class="container" id="products">
+    <h2 class="text-center mb-4">Our Products</h2>
+    <div class="row">
+
+        <!-- Product Cards -->
+        
+<div class="col-md-3">
+    <div class="product-card">
+        <img src="https://via.placeholder.com/200" class="img-fluid" alt="Product 1">
+        <h5>Product 1</h5>
+        <p>High-quality product with amazing features.</p>
+        <div class="pro-price"><del>$100</del><ins>$80</ins></div>
+        <button class="btn btn-primary btn-block mt-2">Buy Now</button>
+    </div>
+</div>
+
+<div class="col-md-3">
+    <div class="product-card">
+        <img src="https://via.placeholder.com/200" class="img-fluid" alt="Product 2">
+        <h5>Product 2</h5>
+        <p>Stylish and modern design for your needs.</p>
+        <div class="pro-price"><del>$120</del><ins>$100</ins></div>
+        <button class="btn btn-primary btn-block mt-2">Buy Now</button>
+    </div>
+</div>
+
+<div class="col-md-3">
+    <div class="product-card">
+        <img src="https://via.placeholder.com/200" class="img-fluid" alt="Product 3">
+        <h5>Product 3</h5>
+        <p>Durable and efficient, perfect for everyday use.</p>
+        <div class="pro-price"><del>$140</del><ins>$120</ins></div>
+        <button class="btn btn-primary btn-block mt-2">Buy Now</button>
+    </div>
+</div>
+
+<div class="col-md-3">
+    <div class="product-card">
+        <img src="https://via.placeholder.com/200" class="img-fluid" alt="Product 4">
+        <h5>Product 4</h5>
+        <p>Premium build quality with advanced technology.</p>
+        <div class="pro-price"><del>$160</del><ins>$140</ins></div>
+        <button class="btn btn-primary btn-block mt-2">Buy Now</button>
+    </div>
+</div>
+
+<div class="col-md-3">
+    <div class="product-card">
+        <img src="https://via.placeholder.com/200" class="img-fluid" alt="Product 5">
+        <h5>Product 5</h5>
+        <p>Innovative and reliable, highly recommended.</p>
+        <div class="pro-price"><del>$180</del><ins>$160</ins></div>
+        <button class="btn btn-primary btn-block mt-2">Buy Now</button>
+    </div>
+</div>
+
+<div class="col-md-3">
+    <div class="product-card">
+        <img src="https://via.placeholder.com/200" class="img-fluid" alt="Product 6">
+        <h5>Product 6</h5>
+        <p>Smart choice for customers who value quality.</p>
+        <div class="pro-price"><del>$200</del><ins>$180</ins></div>
+        <button class="btn btn-primary btn-block mt-2">Buy Now</button>
+    </div>
+</div>
+
+<div class="col-md-3">
+    <div class="product-card">
+        <img src="https://via.placeholder.com/200" class="img-fluid" alt="Product 7">
+        <h5>Product 7</h5>
+        <p>Eco-friendly and energy efficient for modern homes.</p>
+        <div class="pro-price"><del>$220</del><ins>$200</ins></div>
+        <button class="btn btn-primary btn-block mt-2">Buy Now</button>
+    </div>
+</div>
+
+<div class="col-md-3">
+    <div class="product-card">
+        <img src="https://via.placeholder.com/200" class="img-fluid" alt="Product 8">
+        <h5>Product 8</h5>
+        <p>Affordable yet powerful, designed for everyone.</p>
+        <div class="pro-price"><del>$240</del><ins>$220</ins></div>
+        <button class="btn btn-primary btn-block mt-2">Buy Now</button>
+    </div>
+</div>
+
+
+    </div>
+</div>
+
+<!-- Contact Section -->
+<div class="container mt-5" id="contact">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <form>
+        <div class="form-group">
+            <label>Name:</label>
+            <input type="text" class="form-control" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+            <label>Email:</label>
+            <input type="email" class="form-control" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+            <label>Message:</label>
+            <textarea class="form-control" rows="4" placeholder="Enter your message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-success btn-block">Send Message</button>
+    </form>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    <p>&copy; 2025 MyShop | Designed by Farah Qayoom</p>
+</div>
+
+<!-- Bootstrap Scripts -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
